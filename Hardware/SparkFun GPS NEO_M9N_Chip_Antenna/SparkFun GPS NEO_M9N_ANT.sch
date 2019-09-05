@@ -1646,32 +1646,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="U.FL">
-<description>&lt;h3&gt;U.FL SMD Antenna Connector&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 3.0mm x 2.5mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”http://cdn.sparkfun.com/datasheets/Wireless/Antennas/RF-001001.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;U.FL&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="1" x="0" y="1.375" dx="2.2" dy="0.85" layer="1"/>
-<smd name="2" x="0" y="-1.375" dx="2.2" dy="0.85" layer="1"/>
-<smd name="FEED" x="1.525" y="0" dx="1.05" dy="1" layer="1"/>
-<smd name="NC" x="-1.525" y="0" dx="1.05" dy="1" layer="1"/>
-<text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
-<polygon width="0.0254" layer="21">
-<vertex x="0.889" y="-0.508"/>
-<vertex x="0.889" y="0.508"/>
-<vertex x="0.254" y="0.508"/>
-<vertex x="0.254" y="-0.508"/>
-</polygon>
-<circle x="0" y="0" radius="0.127" width="0.254" layer="21"/>
-<wire x1="-1.524" y1="1.016" x2="-1.524" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="1.778" x2="-1.016" y2="2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="2.286" x2="-0.254" y2="2.286" width="0.1524" layer="21"/>
-</package>
 <package name="1X07">
 <description>&lt;h3&gt;Plated Through Hole -7 Pin&lt;/h3&gt;
 &lt;p&gt;Specifications:
@@ -2905,14 +2879,6 @@ Silk outline shows header location.
 <pin name="3" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="U.FL-1">
-<circle x="0" y="0" radius="1.1359" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
-<pin name="SIGNAL" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
-<text x="2.54" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;Value</text>
-</symbol>
 <symbol name="CONN_07">
 <description>&lt;h3&gt; 7 Pin Connection&lt;/h3&gt;</description>
 <wire x1="1.27" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
@@ -3301,33 +3267,6 @@ to be daisy chained easily.&lt;/p&gt;
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="U.FL2PIN" prefix="J" uservalue="yes">
-<description>&lt;h3&gt;SMD Antenna Connector - U.FL&lt;/h3&gt;
-&lt;p&gt;2mm height, 3.0mm x 3.0mm receptacle size. &lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13287"&gt;SparkFun WiFi Shield - ESP8266&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13231”&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11420”&gt;SparkFun MiniGen - Pro Mini Signal Generator Shield&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="U.FL-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="U.FL">
-<connects>
-<connect gate="G$1" pin="GND" pad="1 2"/>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-09193"/>
-<attribute name="SF_ID" value="WRL-09144" constant="no"/>
-<attribute name="VALUE" value="U.FL"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -19142,39 +19081,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED-YELLOW" prefix="D" uservalue="yes">
-<description>&lt;h3&gt;Yellow SMD LED&lt;/h3&gt;
+<deviceset name="LED-BLUE" prefix="D" uservalue="yes">
+<description>&lt;h3&gt;Blue SMD LED&lt;/h3&gt;
+&lt;p&gt;Used in manufacturing of various products at SparkFun&lt;/p&gt;
 
-Used in manufacturing several products at SparkFun. 
 
 &lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;b&gt; 0603&lt;/b&gt; -  SMD 0603  package&lt;a href=http://www.kingbrightusa.com/product.asp?catalog_name=LED&amp;product_id=APT1608SYCK"&gt;[Product Link]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt; 0603 -SMART&lt;/b&gt; - SMART SMD 0603  package (more efficient/more expensive) &lt;a href="http://www.osram-os.com/osram_os/en/products/product-catalog/led-light-emitting-diodes/smartled-0603/ly-l29k/index.jsp"&gt;[Product Link]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt; LilyPad&lt;/b&gt; - SMD1206  package&lt;a href="https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150YUS4.pdf"&gt;[Product Datasheet]&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://www.digikey.com/product-detail/en/SMLE12BC7TT86/511-1589-2-ND/1641808"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;1206&lt;/b&gt; - SMD1206  package &lt;a href="http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C150TBKT/160-1643-1-ND/573584"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13794”&gt;Blynk Board&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13613”&gt;IOIO-OTG&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13225”&gt;XBee Explorer Serial&lt;/a&gt;&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13711”&gt;ESP8266 Thing-Dev Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;RedBoard&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
+<gate name="G$1" symbol="LED" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="LILYPAD" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09909"/>
-<attribute name="VALUE" value="Yellow" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="0603" package="LED-0603">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
@@ -19182,20 +19106,20 @@ Used in manufacturing several products at SparkFun.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="DIO-09003"/>
-<attribute name="VALUE" value="Yellow" constant="no"/>
+<attribute name="PROD_ID" value="DIO-08575"/>
+<attribute name="VALUE" value="BLUE"/>
 </technology>
 </technologies>
 </device>
-<device name="0603-SMART" package="LED-0603">
+<device name="1206" package="LED-1206">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="DIO-11230" constant="no"/>
-<attribute name="VALUE" value="Yellow" constant="no"/>
+<attribute name="PROD_ID" value="DIO-09911"/>
+<attribute name="VALUE" value="BLUE" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -19206,8 +19130,7 @@ Used in manufacturing several products at SparkFun.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="DIO-09909" constant="no"/>
-<attribute name="VALUE" value="YELLOW" constant="no"/>
+<attribute name="PROD_ID" value="DIO-09911" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -19925,6 +19848,226 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-GPS">
+<description>&lt;h3&gt;SparkFun GPS, Antennas&lt;/h3&gt;
+This library contains GPS modules, GPS antennas, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="W3011">
+<smd name="3" x="-1.6" y="0" dx="0.8" dy="1.6" layer="1"/>
+<smd name="2" x="1.6" y="-0.475" dx="0.8" dy="0.65" layer="1"/>
+<smd name="1" x="1.6" y="0.475" dx="0.8" dy="0.65" layer="1"/>
+<wire x1="-2" y1="-1.2" x2="-2" y2="3.05" width="0.05" layer="51"/>
+<wire x1="-2" y1="3.05" x2="2" y2="3.05" width="0.05" layer="51"/>
+<wire x1="2" y1="3.05" x2="2" y2="-1.2" width="0.05" layer="51"/>
+<wire x1="2" y1="-1.2" x2="-2" y2="-1.2" width="0.05" layer="51"/>
+<rectangle x1="-2" y1="-1.25" x2="2" y2="3.05" layer="42"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-0.9" y1="0.8" x2="0.9" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="-0.8" x2="0.9" y2="-0.8" width="0.1524" layer="21"/>
+<text x="0" y="1.4" size="0.2" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="1" size="0.2" layer="27" font="vector" align="center">&gt;Value</text>
+<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
+Antenna</text>
+<rectangle x1="-2" y1="1" x2="2" y2="3" layer="41"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="41"/>
+<rectangle x1="-2" y1="-1.2" x2="2" y2="-1" layer="41"/>
+</package>
+<package name="TE_PUCK">
+<circle x="0" y="0" radius="8" width="0.05" layer="51"/>
+<smd name="1" x="-1.2" y="-7.03" dx="2.4" dy="2.4" layer="1"/>
+<smd name="3" x="6.4432" y="3.72" dx="2.5" dy="2.5" layer="1" rot="R300"/>
+<smd name="2" x="-6.4432" y="3.72" dx="2.5" dy="2.5" layer="1" rot="R60"/>
+<smd name="S" x="1.75" y="-7.28" dx="1.4" dy="1.74" layer="1"/>
+<circle x="0" y="0" radius="14" width="0.05" layer="39"/>
+<text x="0" y="0.635" size="0.508" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="-1.27" size="0.508" layer="27" font="vector" align="center">&gt;Value</text>
+<wire x1="-5.8" y1="5.5" x2="5.8" y2="5.5" width="0.2032" layer="21" curve="-93.807969"/>
+<wire x1="7.7" y1="2.3" x2="3" y2="-7.4" width="0.2032" layer="21" curve="-86.010171"/>
+<wire x1="-2.9" y1="-7.4" x2="-7.7" y2="2.3" width="0.2032" layer="21" curve="-86.13748"/>
+</package>
+<package name="MOLEX_GNSS_CUBE">
+<smd name="NC2" x="-3.905" y="5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
+<smd name="NC3" x="3.905" y="5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
+<smd name="NC1" x="-3.905" y="-5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
+<wire x1="-5.86" y1="5.86" x2="5.86" y2="5.86" width="0.05" layer="51"/>
+<wire x1="5.86" y1="5.86" x2="5.86" y2="-5.86" width="0.05" layer="51"/>
+<wire x1="5.86" y1="-5.86" x2="-5.86" y2="-5.86" width="0.05" layer="51"/>
+<wire x1="-5.86" y1="-5.86" x2="-5.86" y2="5.86" width="0.05" layer="51"/>
+<smd name="GND" x="3.545" y="-5.2" dx="1.3" dy="1.32" layer="1" rot="R180"/>
+<smd name="FEED" x="5.33" y="-3.4" dx="1.3" dy="1.61" layer="1" rot="R270"/>
+<rectangle x1="3.295" y1="-7.5" x2="3.795" y2="-5" layer="51"/>
+<rectangle x1="4.125" y1="-4.45" x2="4.5" y2="-2.35" layer="41"/>
+<wire x1="-5.842" y1="-5.842" x2="-5.842" y2="5.842" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="5.842" x2="1.905" y2="5.842" width="0.1524" layer="21"/>
+<wire x1="5.842" y1="5.842" x2="5.842" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="5.842" y1="-4.445" x2="5.842" y2="-5.842" width="0.1524" layer="21"/>
+<wire x1="5.842" y1="-5.842" x2="4.572" y2="-5.842" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-5.842" x2="-1.905" y2="-5.842" width="0.1524" layer="21"/>
+<text x="0" y="2.54" size="0.508" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0.889" size="0.508" layer="27" font="vector" align="center">&gt;Value</text>
+<rectangle x1="5.0125" y1="-3.5875" x2="5.3875" y2="-1.4875" layer="41" rot="R90"/>
+<rectangle x1="5.0125" y1="-5.2875" x2="5.3875" y2="-3.1875" layer="41" rot="R90"/>
+<rectangle x1="3.3625" y1="-5.3875" x2="3.7375" y2="-3.2875" layer="41" rot="R90"/>
+<rectangle x1="4.225" y1="-6.95" x2="4.6" y2="-4.5" layer="41"/>
+<rectangle x1="3.795" y1="-6.95" x2="4.2375" y2="-5.975" layer="41"/>
+<rectangle x1="2.845" y1="-6.95" x2="3.2875" y2="-5.625" layer="41"/>
+<wire x1="3.1" y1="-5.9" x2="3.1" y2="-6.94" width="0.05" layer="41"/>
+<rectangle x1="2.5" y1="-6.95" x2="2.875" y2="-4.5" layer="41" rot="R180"/>
+<rectangle x1="3.14" y1="-4" x2="4.14" y2="4.05" layer="21"/>
+<rectangle x1="-4.75" y1="3.14" x2="3.14" y2="4.05" layer="21"/>
+<rectangle x1="-4.75" y1="2.3" x2="-3.75" y2="3.14" layer="21"/>
+<rectangle x1="-3.61" y1="-3.61" x2="1.64" y2="1.64" layer="21"/>
+</package>
+<package name="MOLEX_GNSS_CHIP">
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
+<smd name="2" x="-1.45" y="-0.55" dx="1.1" dy="0.5" layer="1"/>
+<smd name="3" x="-1.45" y="0.55" dx="1.1" dy="0.5" layer="1"/>
+<smd name="FEED" x="1.45" y="0.55" dx="1.1" dy="0.5" layer="1"/>
+<smd name="1" x="1.45" y="-0.55" dx="1.1" dy="0.5" layer="1"/>
+<wire x1="-2" y1="6" x2="2" y2="6" width="0.05" layer="51"/>
+<wire x1="2" y1="6" x2="2" y2="-1" width="0.05" layer="51"/>
+<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.05" layer="51"/>
+<wire x1="-2" y1="-1" x2="-2" y2="6" width="0.05" layer="51"/>
+<wire x1="-0.6" y1="0.8" x2="0.6" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-0.6" y1="-0.8" x2="0.6" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="-1.6" y1="0.1" x2="-1.6" y2="-0.1" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="0.1" x2="1.6" y2="-0.1" width="0.1524" layer="21"/>
+<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
+Antenna</text>
+<text x="0" y="1.651" size="0.2" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="1.27" size="0.2" layer="27" font="vector" align="center">&gt;Value</text>
+<rectangle x1="-2" y1="-1" x2="2" y2="6" layer="42"/>
+<rectangle x1="-2" y1="1" x2="2" y2="6" layer="41"/>
+<rectangle x1="-0.8" y1="-1" x2="0.8" y2="1" layer="41"/>
+<rectangle x1="-2" y1="-0.2" x2="2" y2="0.2" layer="41"/>
+</package>
+<package name="W3062A">
+<wire x1="-3.5" y1="0.78" x2="3.5" y2="0.78" width="0.05" layer="51"/>
+<wire x1="3.5" y1="0.78" x2="3.5" y2="-0.78" width="0.05" layer="51"/>
+<wire x1="3.5" y1="-0.78" x2="-3.5" y2="-0.78" width="0.05" layer="51"/>
+<wire x1="-3.5" y1="-0.78" x2="-3.5" y2="0.78" width="0.05" layer="51"/>
+<smd name="GND" x="-3" y="0" dx="1.25" dy="1.61" layer="1"/>
+<smd name="FEED" x="3" y="0" dx="1.25" dy="1.61" layer="1"/>
+<rectangle x1="-3.5" y1="-0.68" x2="-2.5" y2="0.68" layer="51"/>
+<rectangle x1="2.49" y1="-0.68" x2="3.49" y2="0.68" layer="51"/>
+<rectangle x1="-3.9" y1="-2.625" x2="3.9" y2="2.625" layer="42"/>
+<wire x1="-2" y1="0.8" x2="2" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-0.8" x2="2" y2="-0.8" width="0.1524" layer="21"/>
+<text x="0" y="2" size="0.2" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="1.4" size="0.2" layer="27" font="vector" align="center">&gt;Value</text>
+<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
+Antenna</text>
+<wire x1="-3.9" y1="2.6" x2="3.9" y2="2.6" width="0.05" layer="51"/>
+<wire x1="3.9" y1="2.6" x2="3.9" y2="-2.6" width="0.05" layer="51"/>
+<wire x1="3.9" y1="-2.6" x2="-3.9" y2="-2.6" width="0.05" layer="51"/>
+<wire x1="-3.9" y1="-2.6" x2="-3.9" y2="2.6" width="0.05" layer="51"/>
+<rectangle x1="3.5" y1="-0.8" x2="3.9" y2="-0.6" layer="41"/>
+<rectangle x1="3.5" y1="0.6" x2="3.9" y2="0.8" layer="41"/>
+<rectangle x1="-3.9" y1="0.8" x2="3.9" y2="2.6" layer="41"/>
+<rectangle x1="-3.9" y1="-2.6" x2="3.9" y2="-0.8" layer="41"/>
+<rectangle x1="-3.9" y1="-0.8" x2="-3.5" y2="-0.6" layer="41"/>
+<rectangle x1="-3.9" y1="0.6" x2="-3.5" y2="0.8" layer="41"/>
+<rectangle x1="-2.3" y1="-0.8" x2="2.3" y2="0.8" layer="41"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ANTENNA-GROUNDED">
+<description>&lt;h3&gt;Antenna (with ground termination)&lt;/h3&gt;</description>
+<wire x1="0" y1="-2.54" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<circle x="0" y="-5.08" radius="1.1359" width="0.254" layer="94"/>
+<text x="3.048" y="-5.08" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="3.048" y="-7.366" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="GND" x="2.54" y="-10.16" visible="off" length="short" rot="R90"/>
+<pin name="SIGNAL" x="0" y="-10.16" visible="off" length="short" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GPS_CHIP_ANTENNA" prefix="Y">
+<gates>
+<gate name="G$1" symbol="ANTENNA-GROUNDED" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="W3011" package="W3011">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 3"/>
+<connect gate="G$1" pin="SIGNAL" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="ANT-14304" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PUCK" package="TE_PUCK">
+<connects>
+<connect gate="G$1" pin="GND" pad="1 2 3"/>
+<connect gate="G$1" pin="SIGNAL" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="ANT-14308" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CUBE" package="MOLEX_GNSS_CUBE">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="ANT-14307" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2042830001" package="MOLEX_GNSS_CHIP">
+<connects>
+<connect gate="G$1" pin="GND" pad="1 2 3"/>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="ANT-14306" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="W3062A" package="W3062A">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="ANT-14305" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19965,8 +20108,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP5" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" value="JUMPER-SMT_3_2-NC_TRACE_SILK"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="LED1" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
+<part name="LED1" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
+<part name="PPS" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="0.5A/40V/420mV"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
@@ -19981,7 +20124,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J13" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
@@ -19998,7 +20140,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="27OHM" device="-0603-1/10W-1%" value="27"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="27OHM" device="-0603-1/10W-1%" value="27"/>
-<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value="JUMPER-SMT_2_NO_SILK"/>
+<part name="SPI" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value="JUMPER-SMT_2_NO_SILK"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="47PF" device="-0603-50V-5%" value="47pF"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="10OHM" device="-0603-1/10W-1%" value="10"/>
@@ -20012,7 +20154,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="U1" library="gps" deviceset="U-BLOX_NEO-M9N" device=""/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
+<part name="PWR\" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="D3" library="SparkFun-IC-Power" deviceset="PRTR5V0U2" device="F"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="USB_C" device="2-LAYER"/>
@@ -20022,6 +20164,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R16" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402-1/16W-1%" value="10k"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="Y1" library="SparkFun-GPS" deviceset="GPS_CHIP_ANTENNA" device="W3011"/>
 </parts>
 <sheets>
 <sheet>
@@ -20035,7 +20178,7 @@ I2C pullups from bus</text>
 disable LED</text>
 <text x="43.18" y="12.7" size="1.778" layer="97" font="vector">Close jumper to
 enable SPI</text>
-<text x="215.392" y="104.14" size="1.778" layer="97" font="vector">CI160808-33NJ</text>
+<text x="215.392" y="111.76" size="1.778" layer="97" font="vector">CI160808-33NJ</text>
 <text x="166.624" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 <text x="78.74" y="99.06" size="2.54" layer="94" font="vector">Headers</text>
 <text x="2.54" y="99.06" size="2.54" layer="94" font="vector">LEDs and Jumpers</text>
@@ -20140,7 +20283,7 @@ enable SPI</text>
 <attribute name="NAME" x="19.685" y="8.763" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="20.955" y="8.382" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="JP1" gate="G$1" x="20.32" y="40.64" smashed="yes" rot="R90">
+<instance part="PPS" gate="G$1" x="20.32" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.558" y="45.339" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="D2" gate="G$1" x="160.02" y="104.14" smashed="yes" rot="R270">
@@ -20179,12 +20322,8 @@ enable SPI</text>
 <instance part="GND15" gate="1" x="132.08" y="129.54" smashed="yes">
 <attribute name="VALUE" x="129.54" y="127" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND27" gate="1" x="210.82" y="71.12" smashed="yes">
-<attribute name="VALUE" x="210.82" y="70.866" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="J13" gate="G$1" x="210.82" y="101.6" smashed="yes">
-<attribute name="NAME" x="202.565" y="101.473" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="202.438" y="98.806" size="1.778" layer="96" font="vector"/>
+<instance part="GND27" gate="1" x="213.36" y="71.12" smashed="yes">
+<attribute name="VALUE" x="213.36" y="70.866" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="C4" gate="G$1" x="228.6" y="154.94" smashed="yes">
 <attribute name="NAME" x="230.124" y="157.861" size="1.778" layer="95" font="vector"/>
@@ -20242,7 +20381,7 @@ enable SPI</text>
 <attribute name="NAME" x="10.922" y="134.874" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="19.812" y="134.874" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="JP4" gate="G$1" x="40.64" y="17.78" smashed="yes" rot="R90">
+<instance part="SPI" gate="G$1" x="40.64" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.26" y="20.32" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="GND2" gate="1" x="40.64" y="7.62" smashed="yes">
@@ -20289,7 +20428,7 @@ enable SPI</text>
 <attribute name="NAME" x="35.56" y="165.608" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="35.56" y="124.46" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="JP2" gate="G$1" x="12.7" y="40.64" smashed="yes" rot="R90">
+<instance part="PWR\" gate="G$1" x="12.7" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.938" y="45.339" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="D3" gate="D1" x="167.64" y="152.4" smashed="yes" rot="MR180">
@@ -20323,6 +20462,10 @@ enable SPI</text>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="40.64" y="40.64" smashed="yes">
 <attribute name="VALUE" x="40.64" y="43.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="Y1" gate="G$1" x="210.82" y="114.3" smashed="yes">
+<attribute name="NAME" x="213.868" y="109.22" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="213.868" y="106.934" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -20392,7 +20535,7 @@ enable SPI</text>
 <pinref part="J1" gate="J1" pin="3"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="PWR\" gate="G$1" pin="2"/>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
 <wire x1="12.7" y1="45.72" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -20437,11 +20580,6 @@ enable SPI</text>
 <wire x1="20.32" y1="12.7" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J13" gate="G$1" pin="GND"/>
-<pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="210.82" y1="73.66" x2="210.82" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="228.6" y1="132.08" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -20468,7 +20606,7 @@ enable SPI</text>
 <wire x1="193.04" y1="132.08" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="SPI" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="12.7" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
@@ -20514,6 +20652,11 @@ enable SPI</text>
 <pinref part="R13" gate="R1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="139.7" y1="134.62" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Y1" gate="G$1" pin="GND"/>
+<wire x1="213.36" y1="104.14" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SCL/SCK" class="0">
@@ -20620,7 +20763,7 @@ enable SPI</text>
 <segment>
 <wire x1="20.32" y1="45.72" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
 <label x="20.32" y="48.26" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="PPS" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="TXLV" class="0">
@@ -20682,7 +20825,7 @@ enable SPI</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="PPS" gate="G$1" pin="1"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="35.56" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
 </segment>
@@ -20773,13 +20916,14 @@ enable SPI</text>
 </net>
 <net name="GPS_ANT1" class="0">
 <segment>
-<wire x1="218.44" y1="101.6" x2="215.9" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="J13" gate="G$1" pin="SIGNAL"/>
 <wire x1="218.44" y1="101.6" x2="218.44" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="FB1" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="101.6" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
 <junction x="218.44" y="101.6"/>
 <label x="223.52" y="101.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="210.82" y1="101.6" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="101.6" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="SIGNAL"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="RF_IN"/>
@@ -20849,7 +20993,7 @@ enable SPI</text>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="SPI" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="27.94" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="25.4" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
@@ -20906,7 +21050,7 @@ enable SPI</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="PWR\" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="35.56" x2="12.7" y2="33.02" width="0.1524" layer="91"/>
 </segment>
