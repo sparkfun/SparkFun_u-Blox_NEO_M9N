@@ -410,7 +410,9 @@
 <connect gate="G$1" pin="V_BKCP" pad="22"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14651" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

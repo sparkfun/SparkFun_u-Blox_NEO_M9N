@@ -19902,7 +19902,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="V_BKCP" pad="22"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14651" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -20042,6 +20044,7 @@ enable SPI</text>
 <wire x1="195.58" y1="60.96" x2="248.92" y2="60.96" width="0.1524" layer="97" style="shortdash"/>
 <text x="104.14" y="177.8" size="2.54" layer="94" font="vector">USB Connector - Power</text>
 <text x="148.844" y="6.604" size="2.54" layer="94" font="vector">Based on design by: Nathan Seidle</text>
+<text x="38.1" y="170.18" size="1.27" layer="97" font="vector">VCC Range: 2.7 - 3.3V</text>
 </plain>
 <instances>
 <instance part="JP31" gate="G$1" x="246.38" y="30.48" smashed="yes"/>
@@ -20052,6 +20055,7 @@ enable SPI</text>
 <attribute name="VALUE" x="91.44" y="76.454" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="J2" gate="G$1" x="101.6" y="66.04" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="121.92" y="60.706" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 <attribute name="NAME" x="106.68" y="73.914" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="GND6" gate="1" x="91.44" y="58.42" smashed="yes">
@@ -20073,6 +20077,7 @@ enable SPI</text>
 <attribute name="VALUE" x="91.44" y="48.514" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="J4" gate="G$1" x="101.6" y="38.1" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="121.92" y="32.766" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 <attribute name="NAME" x="106.68" y="45.974" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="GND8" gate="1" x="91.44" y="30.48" smashed="yes">

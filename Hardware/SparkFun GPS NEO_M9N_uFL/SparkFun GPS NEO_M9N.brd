@@ -3,11 +3,11 @@
 <eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="31" fill="1" visible="yes" active="yes"/>
@@ -33,7 +33,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -96,10 +96,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -177,6 +177,8 @@
 <dimension x1="2.54" y1="2.54" x2="2.54" y2="30.48" x3="-2.54" y3="16.51" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="2.54" y1="30.48" x2="38.1" y2="30.48" x3="20.32" y3="45.72" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="12.7" y="-17.78" size="1.778" layer="51" font="vector">Elias Santistevan</text>
+<text x="9.652" y="5.842" size="1.524" layer="21" font="vector" ratio="15">-</text>
+<text x="6.096" y="6.096" size="1.524" layer="21" font="vector" ratio="15">+</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -6783,6 +6785,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="20.193" y="20.6756" smashed="yes" rot="MR0"/>
 <element name="U1" library="gps" package="NEO-M9N" value="U-BLOX_NEO-M9N" x="20.32" y="16.2306" smashed="yes">
 <attribute name="NAME" x="14.22" y="24.7306" size="0.508" layer="25"/>
+<attribute name="PROD_ID" value="IC-14651" x="20.32" y="16.2306" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="14.22" y="7.2306" size="0.508" layer="27"/>
 </element>
 <element name="PWR\" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" value="JUMPER-SMT_2_NC_TRACE_SILK" x="35.052" y="11.9126" smashed="yes" rot="MR0">
@@ -7020,7 +7023,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="33.02" y="2.54" extent="1-16" drill="0.3048"/>
 <via x="35.56" y="2.54" extent="1-16" drill="0.3048"/>
 <via x="35.56" y="3.81" extent="1-16" drill="0.3048"/>
-<via x="37.846" y="8.3566" extent="1-16" drill="0.3048"/>
+<via x="37.8968" y="8.1026" extent="1-16" drill="0.3048"/>
 <via x="6.858" y="2.54" extent="1-16" drill="0.3048"/>
 <via x="5.588" y="1.016" extent="1-16" drill="0.3048"/>
 <via x="0.7874" y="24.6126" extent="1-16" drill="0.3048"/>
@@ -7324,7 +7327,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$2">
 <contactref element="LED1" pad="A"/>
 <contactref element="R11" pad="1"/>
-<wire x1="36.9824" y1="8.751" x2="36.7794" y2="8.751" width="0.1524" layer="1"/>
 <wire x1="36.9824" y1="8.751" x2="36.9824" y2="10.0448" width="0.1524" layer="1"/>
 <wire x1="36.9824" y1="10.0448" x2="37.25" y2="10.3124" width="0.1524" layer="1"/>
 </signal>
