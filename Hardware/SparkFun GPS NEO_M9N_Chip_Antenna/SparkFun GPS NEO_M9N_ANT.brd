@@ -7143,8 +7143,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="25.1714" y1="27.94" x2="27.9654" y2="27.94" width="0.1524" layer="1"/>
 <via x="27.9654" y="27.94" extent="1-16" drill="0.3048"/>
 <wire x1="27.9654" y1="27.94" x2="29.9974" y2="29.972" width="0.1524" layer="16"/>
-<wire x1="32.5374" y1="29.972" x2="34.29" y2="31.75" width="0.1524" layer="16"/>
-<wire x1="29.9974" y1="29.972" x2="32.5374" y2="29.972" width="0.1524" layer="16"/>
+<wire x1="29.9974" y1="29.972" x2="32.512" y2="29.972" width="0.1524" layer="16"/>
+<wire x1="32.512" y1="29.972" x2="34.29" y2="31.75" width="0.1524" layer="16"/>
 </signal>
 <signal name="SDA/!CS">
 <contactref element="J2" pad="3"/>
@@ -7195,8 +7195,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="24.13" y1="26.2128" x2="24.3332" y2="26.416" width="0.1524" layer="1"/>
 <wire x1="24.13" y1="20.447" x2="24.13" y2="25.146" width="0.1524" layer="16"/>
 <wire x1="24.3332" y1="26.416" x2="26.6827" y2="28.7655" width="0.1524" layer="16"/>
-<wire x1="26.67" y1="31.75" x2="26.6827" y2="31.7119" width="0.1524" layer="16"/>
-<wire x1="26.6827" y1="31.7119" x2="26.6827" y2="28.7655" width="0.1524" layer="16"/>
+<wire x1="26.6827" y1="31.7373" x2="26.67" y2="31.75" width="0.1524" layer="16"/>
+<wire x1="26.6827" y1="28.7655" x2="26.6827" y2="31.7373" width="0.1524" layer="16"/>
 </signal>
 <signal name="!RESET">
 <contactref element="JP15" pad="3"/>
@@ -7369,12 +7369,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="8.128" y="14.4526" extent="1-16" drill="0.3048"/>
 <wire x1="8.128" y1="14.4526" x2="8.128" y2="20.62554375" width="0.1524" layer="16"/>
 <wire x1="8.128" y1="20.62554375" x2="12.509128125" y2="25.006671875" width="0.1524" layer="16"/>
-<wire x1="31.75" y1="31.75" x2="31.0896" y2="31.7246" width="0.1524" layer="16"/>
 <wire x1="31.0896" y1="31.7246" x2="25.019" y2="25.654" width="0.1524" layer="16"/>
 <contactref element="J1" pad="6"/>
 <wire x1="12.509128125" y1="25.006671875" x2="15.888071875" y2="25.006671875" width="0.1524" layer="16"/>
 <wire x1="15.888071875" y1="25.006671875" x2="16.5354" y2="25.654" width="0.1524" layer="16"/>
 <wire x1="16.5354" y1="25.654" x2="25.019" y2="25.654" width="0.1524" layer="16"/>
+<wire x1="31.75" y1="31.75" x2="31.7246" y2="31.7246" width="0.1524" layer="16"/>
+<wire x1="31.7246" y1="31.7246" x2="31.0896" y2="31.7246" width="0.1524" layer="16"/>
 </signal>
 <signal name="SHLD">
 <polygon width="0.2032" layer="16">
@@ -7611,10 +7612,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,684d06af99778aee"/>
 <approved hash="19,16,744d1aa0cf78dcee"/>
 <approved hash="5,1,5ab362b4044f8283"/>
-<approved hash="19,16,e78cc8bce76537ef"/>
 <approved hash="19,16,299f121f2a956c90"/>
 <approved hash="19,16,7002598568713c73"/>
-<approved hash="19,16,7e6d035a5841dacc"/>
 <approved hash="3,1,5bdc56ac567f5b0f"/>
 <approved hash="3,1,5c00dde50c8a4c02"/>
 <approved hash="3,16,ba67db97dbdaba2a"/>
@@ -7623,6 +7622,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="3,16,b0dfb2415ab3d2a2"/>
 <approved hash="3,1,6a35437540646924"/>
 <approved hash="3,1,2e16178216492fdd"/>
+<approved hash="19,16,f62f033ed2a3584f"/>
+<approved hash="19,16,6bcb44dd99c7c92c"/>
 </errors>
 </board>
 </drawing>
