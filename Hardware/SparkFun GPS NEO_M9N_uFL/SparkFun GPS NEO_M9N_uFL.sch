@@ -20003,8 +20003,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D3" library="SparkFun-IC-Power" deviceset="PRTR5V0U2" device="F"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="USB_C" device="2-LAYER"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402-1/16W-1%" value="5.1k"/>
-<part name="R13" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402-1/16W-1%" value="5.1k"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R16" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402-1/16W-1%" value="10k"/>
