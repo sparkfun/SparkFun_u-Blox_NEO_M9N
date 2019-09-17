@@ -166,7 +166,7 @@
 <wire x1="0" y1="32.9946" x2="40.64" y2="32.9946" width="0.2032" layer="20"/>
 <wire x1="40.64" y1="32.9946" x2="40.64" y2="0" width="0.2032" layer="20"/>
 <wire x1="40.64" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="34.417" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center">v01</text>
+<text x="34.417" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center">v10</text>
 <text x="-2.54" y="-8.89" size="1.778" layer="47">Measurements in inches</text>
 <dimension x1="0" y1="0" x2="0" y2="33.02" x3="-7.62" y3="16.51" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="33.02" x2="10.16" y2="33.02" x3="5.08" y3="38.1" textsize="1.778" textratio="15" layer="47" unit="inch"/>
@@ -8199,14 +8199,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="8.9408" y1="28.3464" x2="12.0142" y2="28.3464" width="0.3048" layer="1"/>
 <wire x1="21.7424" y1="31.5722" x2="21.59" y2="31.7246" width="0.3048" layer="1"/>
 <wire x1="21.7424" y1="31.5722" x2="21.7424" y2="25.654" width="0.3048" layer="1"/>
-<wire x1="12.6481" y1="25.7059" x2="12.9656" y2="25.3884" width="0.3048" layer="1"/>
 <wire x1="12.9656" y1="25.3884" x2="13.1826" y2="25.1714" width="0.3048" layer="1"/>
 <wire x1="12.9656" y1="25.3884" x2="12.9656" y2="26.6938" width="0.3048" layer="1"/>
-<wire x1="12.2925" y1="25.3503" x2="12.6481" y2="25.7059" width="0.1524" layer="1"/>
-<wire x1="12.2925" y1="22.3509" x2="12.2925" y2="25.3503" width="0.1524" layer="1"/>
+<wire x1="12.2925" y1="22.3509" x2="12.2925" y2="24.5883" width="0.1524" layer="1"/>
 <wire x1="13.1826" y1="25.1714" x2="17.5514" y2="25.1714" width="0.3048" layer="1"/>
 <wire x1="17.5514" y1="25.1714" x2="18.034" y2="25.654" width="0.3048" layer="1"/>
 <wire x1="18.034" y1="25.654" x2="21.7424" y2="25.654" width="0.3048" layer="1"/>
+<wire x1="12.9656" y1="25.2614" x2="12.9656" y2="25.3884" width="0.1524" layer="1"/>
+<wire x1="12.2925" y1="24.5883" x2="12.9656" y2="25.2614" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="R9" pad="2"/>
