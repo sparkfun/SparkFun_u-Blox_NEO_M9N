@@ -7640,10 +7640,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="SPI" pad="1"/>
 <contactref element="C1" pad="2"/>
 <via x="6.35" y="17.7546" extent="1-16" drill="0.3048"/>
-<via x="32.766" y="9.6266" extent="1-16" drill="0.3048"/>
 <via x="32.385" y="12.1666" extent="1-16" drill="0.3048"/>
-<via x="32.766" y="6.5786" extent="1-16" drill="0.3048"/>
-<via x="32.766" y="4.572" extent="1-16" drill="0.3048"/>
+<via x="32.766" y="7.3406" extent="1-16" drill="0.3048"/>
+<via x="32.766" y="4.826" extent="1-16" drill="0.3048"/>
 <via x="15.875" y="9.2456" extent="1-16" drill="0.3048"/>
 <via x="17.78" y="9.2456" extent="1-16" drill="0.3048"/>
 <via x="8.509" y="2.54" extent="1-16" drill="0.3048"/>
@@ -7770,10 +7769,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="7.493" y="25.5016" extent="1-16" drill="0.3048"/>
 <via x="14.224" y="16.8656" extent="1-16" drill="0.3048"/>
 <via x="14.224" y="17.8816" extent="1-16" drill="0.3048"/>
-<via x="12.7" y="17.5006" extent="1-16" drill="0.3048"/>
 <via x="12.7" y="18.3896" extent="1-16" drill="0.3048"/>
 <via x="33.782" y="3.556" extent="1-16" drill="0.3048"/>
-<via x="32.766" y="8.3566" extent="1-16" drill="0.3048"/>
+<via x="32.766" y="9.8806" extent="1-16" drill="0.3048"/>
 <via x="3.302" y="13.6906" extent="1-16" drill="0.3048"/>
 <via x="4.572" y="13.6906" extent="1-16" drill="0.3048"/>
 <via x="2.032" y="14.9606" extent="1-16" drill="0.3048"/>
@@ -7802,8 +7800,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="12.319" y="3.048" extent="1-16" drill="0.3048"/>
 <via x="12.319" y="5.08" extent="1-16" drill="0.3048"/>
 <via x="8.509" y="4.572" extent="1-16" drill="0.3048"/>
-<via x="33.782" y="7.5946" extent="1-16" drill="0.3048"/>
-<via x="33.782" y="5.5626" extent="1-16" drill="0.3048"/>
+<via x="33.782" y="8.6106" extent="1-16" drill="0.3048"/>
+<via x="33.782" y="6.3246" extent="1-16" drill="0.3048"/>
 <via x="8.509" y="1.016" extent="1-16" drill="0.3048"/>
 <via x="12.319" y="1.016" extent="1-16" drill="0.3048"/>
 <wire x1="10.2616" y1="24.8648" x2="10.2616" y2="25.3492" width="0.1524" layer="1"/>
@@ -7814,7 +7812,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="39.116" y="25.3746" extent="1-16" drill="0.3048"/>
 <via x="39.116" y="23.8506" extent="1-16" drill="0.3048"/>
 <via x="8.89" y="19.6596" extent="1-16" drill="0.3048"/>
-<via x="8.89" y="18.6436" extent="1-16" drill="0.3048"/>
 <via x="22.86" y="24.9682" extent="1-16" drill="0.3048"/>
 <via x="18.5674" y="25.019" extent="1-16" drill="0.3048"/>
 <via x="20.3454" y="25.019" extent="1-16" drill="0.3048"/>
