@@ -20172,7 +20172,7 @@ Antenna</text>
 <sheets>
 <sheet>
 <plain>
-<text x="237.744" y="7.366" size="2.54" layer="94" font="vector">V02</text>
+<text x="237.744" y="7.366" size="2.54" layer="94" font="vector">V03</text>
 <text x="55.88" y="119.38" size="1.778" layer="97" font="vector" align="center">7-bit unshifted I2C address: 0x42</text>
 <wire x1="0" y1="106.68" x2="73.66" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
 <text x="33.02" y="81.28" size="1.778" layer="97" font="vector">Cut jumper to remove 
