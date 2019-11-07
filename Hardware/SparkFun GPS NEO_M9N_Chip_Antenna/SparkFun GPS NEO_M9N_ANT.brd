@@ -23,9 +23,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -41,7 +41,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -96,10 +96,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -7846,13 +7846,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="5.246" y1="20.32" x2="6.096" y2="20.32" width="0.1524" layer="1"/>
 <wire x1="6.096" y1="20.32" x2="6.35" y2="20.066" width="0.1524" layer="1"/>
 <wire x1="6.35" y1="20.066" x2="6.35" y2="18.7706" width="0.1524" layer="1"/>
-<wire x1="5.08" y1="15.0956" x2="5.723" y2="15.0956" width="0.1524" layer="1"/>
 <wire x1="5.08" y1="15.0956" x2="3.9798" y2="15.0956" width="0.1524" layer="1"/>
 <wire x1="3.9798" y1="15.0956" x2="3.683" y2="15.3924" width="0.1524" layer="1"/>
 <wire x1="3.683" y1="15.3924" x2="3.683" y2="18.2626" width="0.1524" layer="1"/>
-<wire x1="5.08" y1="15.0956" x2="6.2056" y2="15.0956" width="0.1524" layer="1"/>
 <wire x1="8.6106" y1="17.5006" x2="9.31" y2="17.5006" width="0.1524" layer="1"/>
-<wire x1="6.2056" y1="15.0956" x2="8.6106" y2="17.5006" width="0.1524" layer="1"/>
+<wire x1="8.6106" y1="17.5006" x2="6.2056" y2="15.0956" width="0.1524" layer="1"/>
+<wire x1="6.2056" y1="15.0956" x2="5.08" y2="15.0956" width="0.1524" layer="1"/>
 </signal>
 <signal name="!RESET">
 <contactref element="JP15" pad="3"/>
