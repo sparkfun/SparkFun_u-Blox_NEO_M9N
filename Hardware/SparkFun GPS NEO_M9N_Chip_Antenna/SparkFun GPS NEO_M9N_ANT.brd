@@ -15,8 +15,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -33,7 +33,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -166,7 +166,7 @@
 <wire x1="0" y1="32.9946" x2="40.64" y2="32.9946" width="0.2032" layer="20"/>
 <wire x1="40.64" y1="32.9946" x2="40.64" y2="0" width="0.2032" layer="20"/>
 <wire x1="40.64" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="34.417" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center">v02</text>
+<text x="34.417" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center">v10</text>
 <text x="-2.54" y="-8.89" size="1.778" layer="47">Measurements in inches</text>
 <dimension x1="0" y1="0" x2="0" y2="33.02" x3="-7.62" y3="16.51" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="33.02" x2="10.16" y2="33.02" x3="5.08" y3="38.1" textsize="1.778" textratio="15" layer="47" unit="inch"/>
@@ -7520,7 +7520,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J4" pad="1"/>
 <contactref element="C3" pad="2"/>
 <contactref element="B1" pad="-"/>
-<contactref element="LED1" pad="C"/>
 <polygon width="0.254" layer="1" rank="2">
 <vertex x="0" y="32.9946"/>
 <vertex x="40.64" y="32.9946"/>
@@ -7534,7 +7533,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="0" y="0"/>
 </polygon>
 <contactref element="C4" pad="2"/>
-<contactref element="LED2" pad="C"/>
 <contactref element="C5" pad="1"/>
 <contactref element="U2" pad="2"/>
 <contactref element="C6" pad="2"/>
@@ -7749,6 +7747,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="38.1254" y="19.685" extent="1-16" drill="0.3048"/>
 <via x="39.5478" y="19.685" extent="1-16" drill="0.3048"/>
 <via x="29.0576" y="19.685" extent="1-16" drill="0.3048"/>
+<contactref element="LED1" pad="C"/>
+<contactref element="LED2" pad="C"/>
 </signal>
 <signal name="SCL/SCK">
 <contactref element="J2" pad="4"/>
@@ -7919,7 +7919,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="27.686" y="11.4046" extent="1-16" drill="0.3048"/>
 <wire x1="13.97" y1="1.27" x2="16.51" y2="3.81" width="0.1524" layer="16"/>
 <wire x1="16.51" y1="3.81" x2="26.1181125" y2="3.81" width="0.1524" layer="16"/>
-<wire x1="33.8328" y1="10.1092" x2="32.2072" y2="10.1092" width="0.1524" layer="16"/>
+<wire x1="32.2072" y1="10.1092" x2="33.8328" y2="10.1092" width="0.1524" layer="16"/>
 <via x="32.2072" y="10.1092" extent="1-16" drill="0.3048"/>
 <wire x1="34.3154" y1="9.6266" x2="33.8328" y2="10.1092" width="0.1524" layer="16"/>
 <wire x1="32.0548" y1="9.9568" x2="32.2072" y2="10.1092" width="0.1524" layer="1"/>
@@ -8258,18 +8258,39 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="3,16,a22941594188a2f8"/>
 <approved hash="3,16,b0dfb2415ab3d2a2"/>
 <approved hash="3,1,6a35437540646924"/>
-<approved hash="8,1,7391d0477a7fef74"/>
-<approved hash="5,16,6e97ce49ef23a0ac"/>
-<approved hash="5,16,f698c978609816e2"/>
-<approved hash="19,16,cf6fff8c471cc18d"/>
-<approved hash="19,16,585d60ca9017e701"/>
-<approved hash="19,16,5a526ec59e18e90e"/>
-<approved hash="19,16,fbd309b1b121f5be"/>
-<approved hash="19,16,5ae1e0791027e532"/>
-<approved hash="19,16,ad68d4e7220b1019"/>
-<approved hash="19,16,f277f09a4a3f03b7"/>
-<approved hash="19,16,f9630980b117f786"/>
-<approved hash="23,1,9b7fcd9425284bd1"/>
+<approved hash="19,16,1881318e000758f5"/>
+<approved hash="19,16,38f845f407f10b00"/>
+<approved hash="19,16,821b821b31133113"/>
+<approved hash="19,16,ba7984648645c9cf"/>
+<approved hash="19,16,1b61717f9b3880b1"/>
+<approved hash="19,16,83fe8016281e2bf6"/>
+<approved hash="19,16,ba7984648645c9cf"/>
+<approved hash="19,16,5fff5c14241c27f7"/>
+<approved hash="19,16,83fe8016281e2bf6"/>
+<approved hash="19,16,a46062e39a6e8842"/>
+<approved hash="19,16,b6727069ac411bcd"/>
+<approved hash="19,16,1b61717f9b3880b1"/>
+<approved hash="19,16,ff60957151364ab0"/>
+<approved hash="19,16,bbfeb815d01dd3f6"/>
+<approved hash="19,16,5fff5c14241c27f7"/>
+<approved hash="19,16,5fff5c14241c27f7"/>
+<approved hash="19,16,83fe8016281e2bf6"/>
+<approved hash="19,16,58a5616ca36ed76d"/>
+<approved hash="19,16,3637dc1453c03c21"/>
+<approved hash="19,16,755c6b5d7402e6ae"/>
+<approved hash="19,16,a46062e39a6e8842"/>
+<approved hash="19,16,3637dc1453c03c21"/>
+<approved hash="19,16,7dccddd67c5baf24"/>
+<approved hash="19,16,a44c9854f44dbb30"/>
+<approved hash="19,16,fdd3fcf274fa75db"/>
+<approved hash="19,16,00beea346003faac"/>
+<approved hash="19,16,90d64ad13fdb65ea"/>
+<approved hash="19,16,74a232fa3eae090b"/>
+<approved hash="19,16,b291b9668abd887b"/>
+<approved hash="3,16,eb6c89128922eb5c"/>
+<approved hash="3,16,f36e99109920f35e"/>
+<approved hash="3,16,f60b64756724f55a"/>
+<approved hash="23,1,610afc9c8cbd1f00"/>
 </errors>
 </board>
 </drawing>
