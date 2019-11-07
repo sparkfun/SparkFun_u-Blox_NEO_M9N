@@ -20194,8 +20194,8 @@ enable SPI</text>
 <instance part="GND15" gate="1" x="132.08" y="129.54" smashed="yes">
 <attribute name="VALUE" x="129.54" y="127" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND27" gate="1" x="218.44" y="81.28" smashed="yes">
-<attribute name="VALUE" x="218.44" y="81.026" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND27" gate="1" x="218.44" y="83.82" smashed="yes">
+<attribute name="VALUE" x="218.44" y="83.566" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="C4" gate="G$1" x="228.6" y="154.94" smashed="yes">
 <attribute name="NAME" x="230.124" y="157.861" size="1.778" layer="95" font="vector"/>
@@ -20500,7 +20500,7 @@ enable SPI</text>
 </segment>
 <segment>
 <pinref part="Y1" gate="G$1" pin="GND"/>
-<wire x1="218.44" y1="88.9" x2="218.44" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="88.9" x2="218.44" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -20761,8 +20761,8 @@ enable SPI</text>
 </net>
 <net name="GPS_ANT1" class="3">
 <segment>
-<label x="220.98" y="86.36" size="1.27" layer="95" xref="yes"/>
-<wire x1="215.9" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
+<label x="213.36" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="215.9" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="86.36" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="SIGNAL"/>
 </segment>
