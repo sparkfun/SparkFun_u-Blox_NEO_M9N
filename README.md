@@ -1,4 +1,4 @@
-SparkFun GPS NEO-M9N U.FL and Chip Antenna
+SparkFun GPS NEO-M9N Chip Antenna and U.FL 
 ========================================
 
 <table class="table table-hover table-striped table-bordered">
