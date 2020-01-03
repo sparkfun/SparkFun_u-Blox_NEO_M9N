@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19729,16 +19729,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="gps">
+<library name="SparkFun-GPS">
+<description>&lt;h3&gt;SparkFun GPS, Antennas&lt;/h3&gt;
+This library contains GPS modules, GPS antennas, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="NEO-M9N">
+<description>&lt;h3&gt;u-blox NEO-M9N GPS Module&lt;/h3&gt;
+
+&lt;h4&gt;Mechanical Specifications&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Overall: 12.2mm x 16.0mm&lt;/li&gt;
+&lt;li&gt;Pad Pitch: 1.1mm&lt;/li&gt;
+&lt;li&gt;Pad Width: .8mm &lt;/li&gt;
+&lt;li&gt;Pad Length: .9mm&lt;/li&gt;
+&lt;li&gt;Number of Pins: 24&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <wire x1="6.1" y1="8" x2="6.1" y2="-8" width="0.127" layer="51"/>
 <wire x1="6.1" y1="-8" x2="-6.1" y2="-8" width="0.127" layer="51"/>
 <wire x1="-6.1" y1="-8" x2="-6.1" y2="8" width="0.127" layer="51"/>
 <wire x1="-6.1" y1="8" x2="6.1" y2="8" width="0.127" layer="51"/>
 <text x="-6.1" y="8.5" size="0.508" layer="25">&gt;Name</text>
 <text x="-6.1" y="-9" size="0.508" layer="27">&gt;Value</text>
-<circle x="6.7" y="-8" radius="0.14141875" width="0" layer="21"/>
 <wire x1="4.88" y1="8.25" x2="6.35" y2="8.25" width="0.1778" layer="21"/>
 <wire x1="6.35" y1="8.25" x2="6.35" y2="6.4" width="0.1778" layer="21"/>
 <wire x1="6.35" y1="-6.4" x2="6.35" y2="-8.25" width="0.1778" layer="21"/>
@@ -19843,10 +19871,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-6.1" y1="3.4" x2="-5.2" y2="4" layer="31" rot="R180"/>
 <rectangle x1="-7.3" y1="2.2" x2="-6.1" y2="3" layer="31" rot="R180"/>
 <rectangle x1="-6.1" y1="2.3" x2="-5.2" y2="2.9" layer="31" rot="R180"/>
+<circle x="6.858" y="-8.763" radius="0.4064" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
 <symbol name="NEO-M9N">
+<description>&lt;h3&gt;u-blox NEO-M9N GPS Module&lt;/h3&gt;</description>
 <wire x1="15.24" y1="17.78" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-20.32" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
@@ -19876,6 +19906,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbols>
 <devicesets>
 <deviceset name="U-BLOX_NEO-M9N" prefix="U">
+<description>&lt;h3&gt;u-blox NEO-M9N GPS Module&lt;/h3&gt;
+
+&lt;p&gt;The NEO-M9N module is built on the robust u-blox M9 GNSS chip, which provides exceptional
+sensitivity and acquisition times for all L1 GNSS systems. The u-blox M9 standard precision GNSS
+platform, which delivers meter-level accuracy, succeeds the well-known u-blox M8 product range.
+The receiver also provides higher navigation rate and improved security features compared to
+previous u-blox GNSS generations.
+The NEO-M9N module is available in the NEO form factor LLC package&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="NEO-M9N" x="0" y="2.54"/>
 </gates>
@@ -19998,7 +20036,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
-<part name="U1" library="gps" deviceset="U-BLOX_NEO-M9N" device=""/>
+<part name="U1" library="SparkFun-GPS" deviceset="U-BLOX_NEO-M9N" device=""/>
 <part name="PWR\" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="D3" library="SparkFun-IC-Power" deviceset="PRTR5V0U2" device="F"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
