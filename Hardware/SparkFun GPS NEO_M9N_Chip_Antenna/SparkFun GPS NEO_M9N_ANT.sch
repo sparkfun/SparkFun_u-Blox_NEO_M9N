@@ -21097,7 +21097,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="JP31" library="SparkFun" deviceset="STAND-OFF" device=""/>
-<part name="JP41" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="JP21" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="JP61" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -21215,7 +21214,6 @@ enable SPI</text>
 </plain>
 <instances>
 <instance part="JP31" gate="G$1" x="246.38" y="30.48" smashed="yes"/>
-<instance part="JP41" gate="G$1" x="246.38" y="27.94" smashed="yes"/>
 <instance part="JP21" gate="G$1" x="233.68" y="30.48" smashed="yes" rot="R270"/>
 <instance part="JP61" gate="G$1" x="236.22" y="30.48" smashed="yes"/>
 <instance part="SUPPLY4" gate="G$1" x="91.44" y="73.66" smashed="yes">
