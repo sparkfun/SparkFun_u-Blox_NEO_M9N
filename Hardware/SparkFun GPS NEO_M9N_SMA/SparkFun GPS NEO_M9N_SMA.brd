@@ -7613,8 +7613,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="39.7764" y="30.734" extent="1-16" drill="0.3048"/>
 <via x="37.7444" y="30.734" extent="1-16" drill="0.3048"/>
 <via x="35.7124" y="30.734" extent="1-16" drill="0.3048"/>
-<wire x1="14.32" y1="23.2306" x2="13.7406" y2="27.1878" width="0" layer="19" extent="1-1"/>
-<wire x1="7.2906" y1="27.1878" x2="7.493" y2="25.5016" width="0" layer="19" extent="1-1"/>
+<wire x1="7.2906" y1="27.1878" x2="7.366" y2="27.1124" width="0.3048" layer="1"/>
+<wire x1="7.366" y1="27.1124" x2="7.366" y2="26.162" width="0.3048" layer="1"/>
+<wire x1="13.7406" y1="27.1878" x2="13.7406" y2="26.1866" width="0.3048" layer="1"/>
+<wire x1="13.7406" y1="26.1866" x2="13.716" y2="26.162" width="0.3048" layer="1"/>
 </signal>
 <signal name="SCL/SCK">
 <contactref element="J2" pad="4"/>
@@ -7904,14 +7906,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="SHLD">
 <polygon width="0.2032" layer="16">
 <vertex x="15.494" y="32.9946"/>
-<vertex x="15.494" y="26.6192"/>
-<vertex x="5.461" y="26.6192"/>
+<vertex x="15.494" y="26.924"/>
+<vertex x="5.461" y="26.924"/>
 <vertex x="5.461" y="32.9946"/>
 </polygon>
 <polygon width="0.2032" layer="1">
 <vertex x="15.494" y="32.9946"/>
-<vertex x="15.494" y="26.6192"/>
-<vertex x="5.461" y="26.6192"/>
+<vertex x="15.494" y="26.9494"/>
+<vertex x="5.461" y="26.9494"/>
 <vertex x="5.461" y="32.9946"/>
 </polygon>
 <via x="14.097" y="30.4546" extent="1-16" drill="0.3048"/>
@@ -7997,7 +7999,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="21.7424" y1="31.5722" x2="21.7424" y2="25.654" width="0.3048" layer="1"/>
 <wire x1="12.9656" y1="25.3884" x2="13.081" y2="25.273" width="0.3048" layer="1"/>
 <wire x1="13.081" y1="25.273" x2="13.1826" y2="25.1714" width="0.3048" layer="1"/>
-<wire x1="12.9656" y1="25.3884" x2="12.9656" y2="27.1878" width="0.3048" layer="1"/>
+<wire x1="12.9656" y1="25.3884" x2="12.9656" y2="25.908" width="0.3048" layer="1"/>
+<wire x1="12.9656" y1="25.908" x2="12.9656" y2="27.1878" width="0.3048" layer="1"/>
 <wire x1="12.2925" y1="22.3509" x2="12.2925" y2="24.5883" width="0.1524" layer="1"/>
 <wire x1="13.1826" y1="25.1714" x2="17.5514" y2="25.1714" width="0.3048" layer="1"/>
 <wire x1="17.5514" y1="25.1714" x2="18.034" y2="25.654" width="0.3048" layer="1"/>
