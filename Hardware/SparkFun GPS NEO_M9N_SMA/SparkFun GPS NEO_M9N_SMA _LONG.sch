@@ -21325,7 +21325,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SPI" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="JP15" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
+<part name="JP15" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK_NO_POP"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -21333,7 +21333,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U1" library="SparkFun-GPS" deviceset="U-BLOX_NEO-M9N" device=""/>
 <part name="PWR\" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="D3" library="SparkFun-IC-Power" deviceset="PRTR5V0U2" device="F"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
+<part name="J5" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK_NO_POP"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="USB_C" device="_2-LAYER_PADS"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
