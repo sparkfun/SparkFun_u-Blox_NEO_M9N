@@ -21,7 +21,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -9216,8 +9216,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U$14" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="2.286" y="11.176" smashed="yes"/>
 <element name="U$21" library="NEO_GPS_board_silk_FINAL#03#jpg" package="NEO_GPS_BOARD_SILK_FINAL#03#JPG" value="" x="15.24" y="11.43" smashed="yes" rot="MR0"/>
-<element name="E1" library="SparkFun-RF" package="SMA-EDGE-SMD" value="ANTENNA-GROUNDEDEDGE_RPSMA_SMD" x="40.4114" y="25.654" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="CONN-15101" x="40.4114" y="25.654" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<element name="E1" library="SparkFun-RF" package="SMA-EDGE-SMD" value="ANTENNA-GROUNDEDEDGE_SMA_SMD" x="40.4114" y="25.654" smashed="yes" rot="R270">
+<attribute name="PROD_ID" value="CONN-15100" x="40.4114" y="25.654" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="FB1" library="SparkFun-Coils" package="0402" value="FERRITE_BEAD-120_OHM-0402" x="28.3972" y="21.5138" smashed="yes" rot="R270">
 <attribute name="MFG_PART" value="BLM15HB121SN1D" x="28.3972" y="21.5138" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
