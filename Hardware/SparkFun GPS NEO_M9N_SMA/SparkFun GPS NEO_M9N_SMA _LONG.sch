@@ -21364,7 +21364,7 @@ disable LEDs</text>
 <text x="71.374" y="45.466" size="1.778" layer="97" font="vector" rot="R180">Close SPI jumper to
 enable SPI</text>
 <text x="166.624" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="78.74" y="99.06" size="2.54" layer="94" font="vector">Headers</text>
+<text x="114.3" y="114.3" size="2.54" layer="94" font="vector">Headers</text>
 <text x="2.54" y="99.06" size="2.54" layer="94" font="vector">LEDs and Jumpers</text>
 <text x="149.86" y="116.84" size="2.54" layer="94" font="vector">Hot Start Battery</text>
 <text x="2.54" y="177.8" size="2.54" layer="94" font="vector">GPS: u-Blox NEO-M9N </text>
@@ -21387,6 +21387,10 @@ enable SPI</text>
 <wire x1="25.4" y1="8.89" x2="25.4" y2="17.78" width="0.2032" layer="97" style="dashdot"/>
 <text x="208.28" y="170.18" size="1.27" layer="97" font="vector">VCC Range: 2.5V - 6V 
 600mA Output</text>
+<text x="220.98" y="106.68" size="1.27" layer="97" font="vector">For best results
+use an antenna
+that supports both
+L1/L2 bands.</text>
 </plain>
 <instances>
 <instance part="JP31" gate="G$1" x="246.38" y="30.48" smashed="yes"/>
@@ -21500,8 +21504,8 @@ enable SPI</text>
 </instance>
 <instance part="JP91" gate="G$1" x="243.84" y="30.48" smashed="yes"/>
 <instance part="JP101" gate="G$1" x="243.84" y="27.94" smashed="yes"/>
-<instance part="GND1" gate="1" x="129.54" y="73.66" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="132.08" y="71.12" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="GND1" gate="1" x="119.38" y="76.2" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="121.92" y="73.66" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="GND15" gate="1" x="132.08" y="129.54" smashed="yes">
 <attribute name="VALUE" x="129.54" y="127" size="1.778" layer="96" font="vector"/>
@@ -21572,19 +21576,19 @@ enable SPI</text>
 <instance part="SUPPLY6" gate="G$1" x="22.86" y="165.1" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="22.86" y="167.894" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="JP15" gate="J1" x="101.6" y="88.9" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="106.68" y="78.74" size="1.778" layer="96" rot="MR0"/>
-<attribute name="NAME" x="106.68" y="97.282" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="JP15" gate="J1" x="127" y="12.7" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="132.08" y="2.54" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="132.08" y="21.082" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="124.46" y="96.52" smashed="yes">
-<attribute name="VALUE" x="124.46" y="99.314" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="114.3" y="99.06" smashed="yes">
+<attribute name="VALUE" x="114.3" y="101.854" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="J1" gate="J1" x="137.16" y="83.82" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="142.24" y="73.914" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="NAME" x="142.24" y="97.028" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="J1" gate="J1" x="127" y="86.36" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="132.08" y="76.454" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="NAME" x="132.08" y="99.568" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="129.54" y="96.52" smashed="yes">
-<attribute name="VALUE" x="129.54" y="99.314" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY11" gate="G$1" x="119.38" y="99.06" smashed="yes">
+<attribute name="VALUE" x="119.38" y="101.854" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="190.5" y="33.02" smashed="yes"/>
 <instance part="U1" gate="G$1" x="48.26" y="147.32" smashed="yes">
@@ -21715,8 +21719,8 @@ enable SPI</text>
 <junction x="22.86" y="142.24"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="83.82" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="86.36" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 <pinref part="J1" gate="J1" pin="3"/>
 </segment>
@@ -21798,8 +21802,8 @@ enable SPI</text>
 <segment>
 <pinref part="J1" gate="J1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="132.08" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="78.74" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="81.28" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -21866,8 +21870,8 @@ enable SPI</text>
 <label x="88.9" y="154.94" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
-<label x="121.92" y="93.98" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="121.92" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
+<label x="111.76" y="96.52" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="J1" pin="7"/>
 </segment>
 <segment>
@@ -21899,8 +21903,8 @@ enable SPI</text>
 <label x="88.9" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
-<label x="121.92" y="86.36" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="121.92" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
+<label x="111.76" y="88.9" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="J1" pin="4"/>
 </segment>
 <segment>
@@ -21917,8 +21921,8 @@ enable SPI</text>
 <pinref part="U1" gate="G$1" pin="!RST"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
-<label x="93.98" y="91.44" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="121.92" y1="15.24" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
+<label x="119.38" y="15.24" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="JP15" gate="J1" pin="3"/>
 </segment>
 </net>
@@ -21929,8 +21933,8 @@ enable SPI</text>
 <pinref part="U1" gate="G$1" pin="EXT_INT"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
-<label x="93.98" y="86.36" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="121.92" y1="10.16" x2="119.38" y2="10.16" width="0.1524" layer="91"/>
+<label x="119.38" y="10.16" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="JP15" gate="J1" pin="1"/>
 </segment>
 </net>
@@ -21941,8 +21945,8 @@ enable SPI</text>
 <pinref part="U1" gate="G$1" pin="TIMEPULSE"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
-<label x="93.98" y="93.98" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="121.92" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
+<label x="119.38" y="17.78" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="JP15" gate="J1" pin="4"/>
 </segment>
 <segment>
@@ -22023,8 +22027,8 @@ enable SPI</text>
 <pinref part="U1" gate="G$1" pin="!SAFEBOOT!"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
-<label x="93.98" y="88.9" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="121.92" y1="12.7" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
+<label x="119.38" y="12.7" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="JP15" gate="J1" pin="2"/>
 </segment>
 </net>
@@ -22035,8 +22039,8 @@ enable SPI</text>
 <label x="88.9" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
-<label x="121.92" y="88.9" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="121.92" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
+<label x="111.76" y="91.44" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="J1" pin="5"/>
 </segment>
 </net>
@@ -22047,8 +22051,8 @@ enable SPI</text>
 <label x="88.9" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
-<label x="121.92" y="91.44" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="121.92" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
+<label x="111.76" y="93.98" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="J1" pin="6"/>
 </segment>
 </net>
@@ -22131,8 +22135,8 @@ enable SPI</text>
 </segment>
 <segment>
 <pinref part="J1" gate="J1" pin="2"/>
-<wire x1="132.08" y1="81.28" x2="129.54" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="81.28" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="83.82" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="5V"/>
 </segment>
 </net>
