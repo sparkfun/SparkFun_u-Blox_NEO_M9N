@@ -1,14 +1,16 @@
-SparkFun GPS NEO-M9N Chip Antenna and U.FL 
+SparkFun GPS NEO-M9N Breakout (Chip Antenna, U.FL, SMA) 
 ========================================
 
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
    <td><a href="https://www.sparkfun.com/products/15733"><img src="https://cdn.sparkfun.com/assets/parts/1/4/3/2/2/15733-SparkFun_GPS_Breakout_-_NEO-M9N__Chip_Antenna__Qwiic_-01.jpg"></a></td>
    <td><a href="https://www.sparkfun.com/products/15712"><img src="https://cdn.sparkfun.com/assets/parts/1/4/2/9/3/15712-SparkFun_GPS_Breakout_-_NEO-M9N__U.FL__Qwiic_-01.jpg"></a></td>
+    <td><a href="https://www.sparkfun.com/products/17285"><img src="https://cdn.sparkfun.com//assets/parts/1/6/3/0/3/17285-SparkFun_GPS_Breakout_-_NEO-M9N__SMA__Qwiic_-01.jpg"></a></td>
   </tr>
   <tr align="center">
-    <td><a href="https://www.sparkfun.com/products/15733">SparkFun GPS NEO-M9N Chip Antenna (GPS-15733)</a></td>
-    <td><a href="https://www.sparkfun.com/products/15712">SparkFun GPS NEO-M9N U.FL (GPS-15172)</a></td>
+    <td><a href="https://www.sparkfun.com/products/15733">SparkFun GPS NEO-M9N Chip Antenna <br />(GPS-15733)</a></td>
+    <td><a href="https://www.sparkfun.com/products/15712">SparkFun GPS NEO-M9N U.FL <br />(GPS-15172)</a></td>
+    <td><a href="https://www.sparkfun.com/products/17285">SparkFun GPS NEO-M9N SMA <br />(GPS-17285)</a></td>
   </tr>
 </table>
 
@@ -16,7 +18,7 @@ The SparkFun NEO-M9N GPS Breakout is a high quality, GPS board with equally impr
 
 The NEO-M9N module detects jamming and spoofing events and can reports them to the host, so that the system can react to such events. A SAW (Surface Acoustic Wave) filter combined with an LNA (Low Noise Amplifier) in the RF path is integrated into the NEO-M9N module which allows normal operation even under strong RF interferences.
 
-U-blox based GPS products are configurable using the popular, but dense, windows program called u-center. Plenty of different functions can be configured on the SAM-M8Q: baud rates, update rates, geofencing, spoofing detection, external interrupts, SBAS/D-GPS, etc. All of this can be done within the SparkFun Arduino Library!
+U-blox based GPS products are configurable using the popular, but dense, windows program called u-center. Plenty of different functions can be configured on the NEO-M9N: baud rates, update rates, geofencing, spoofing detection, external interrupts, SBAS/D-GPS, etc. All of this can be done within the SparkFun Arduino Library!
 
 The SparkFun NEO-M9N GPS Breakout is also equipped with an on-board rechargeable battery that provides power to the RTC on the NEO-M9N.  This reduces the time-to-first fix from a cold start (~24s) to a hot start (~2s). The battery will maintain RTC and GNSS orbit data without being connected to power for plenty of time. 
 
@@ -30,7 +32,15 @@ Repository Contents
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library)** - Arduino Library the SparkFun GPS NEO-M9N.
+* **[Qwiic UBlox GPS Py](https://github.com/sparkfun/Qwiic_Ublox_Gps_Py)** - Python Package
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-neo-m9n-hookup-guide)** - Basic hookup guide for the SparkFun GPS NEO-M9N
+
+Product Versions
+----------------
+* [GPS-17285](https://www.sparkfun.com/products/17285) - GPS NEO-M9N SMA
+* [GPS-15733](https://www.sparkfun.com/products/15733) - GPS NEO-M9N Chip Antenna
+* [GPS-15712](https://www.sparkfun.com/products/15712) - GPS NEO-M9N u.FL
+
 
 License Information
 -------------------
