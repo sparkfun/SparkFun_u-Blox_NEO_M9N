@@ -31,7 +31,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library)** - Arduino Library the SparkFun GPS NEO-M9N.
+* **[Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library)** - Arduino Library the SparkFun GPS NEO-M9N.
 * **[Qwiic UBlox GPS Py](https://github.com/sparkfun/Qwiic_Ublox_Gps_Py)** - Python Package
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-neo-m9n-hookup-guide)** - Basic hookup guide for the SparkFun GPS NEO-M9N
 
