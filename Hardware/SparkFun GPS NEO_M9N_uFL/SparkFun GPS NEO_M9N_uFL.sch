@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20065,7 +20065,7 @@ enable SPI</text>
 <text x="78.74" y="99.06" size="2.54" layer="94" font="vector">Headers</text>
 <text x="2.54" y="99.06" size="2.54" layer="94" font="vector">LEDs and Jumpers</text>
 <text x="149.86" y="116.84" size="2.54" layer="94" font="vector">Hot Start Battery</text>
-<text x="2.54" y="177.8" size="2.54" layer="94" font="vector">GPS: u-Blox NEO-M9N </text>
+<text x="2.54" y="177.8" size="2.54" layer="94" font="vector">GPS: u-blox NEO-M9N </text>
 <wire x1="73.66" y1="106.68" x2="73.66" y2="0" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="27.94" y1="48.26" x2="27.94" y2="40.64" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="27.94" y1="40.64" x2="22.86" y2="40.64" width="0.2032" layer="97" style="dashdot"/>
